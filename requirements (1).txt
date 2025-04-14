@@ -1,0 +1,27 @@
+# Core Requirements
+telethon==1.28.5
+requests==2.31.0
+Pillow==10.1.0
+qrcode==7.4.2
+py7zr==0.20.7
+exifread==3.0.0
+psutil==5.9.6
+python-dotenv==1.0.0
+
+# Optional/Enhanced Features
+speedtest-cli==2.1.3  # For /speedtest command
+pytesseract==0.3.10   # For OCR functionality (requires tesseract-ocr installed on system)
+python-weather==0.3.6  # Alternative weather API
+beautifulsoup4==4.12.2 # For web scraping if needed
+cachetools==5.3.1     # For advanced caching
+
+# Development Tools
+python-dotenv==1.0.0  # For environment variables
+pytest==7.4.0        # For testing
+pytest-asyncio==0.21.1 # Async testing
+black==23.9.1        # Code formatting
+flake8==6.1.0        # Linting
+mypy==1.5.1          # Type checking
+
+# Platform Specific
+pywin32==306; sys_platform == 'win32'  # Windows specific dependencies
